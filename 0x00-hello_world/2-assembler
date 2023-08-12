@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S "$CFILE" -o "$BASENAME.s" | echo "Assembly code generated and saved as $BASENAME.s"
